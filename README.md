@@ -4,7 +4,7 @@ This guide explains, step by step, the workflow of narrowband technosignature se
 This workflow is the one used in Manunza et al. (https://doi.org/10.1016/j.actaastro.2025.04.007) for TESS targets and Galactic Center.
 
 ### Step 1: Run turboSETI (turbo_seti.py)
-  The input files of turboSETI are filterbank files (.fil). They should be organized in three ON-OFF pairs, which is the main approach to exclude false positives. 
+  The input files of turboSETI are filterbank files (.fil). Not necessary for the turboSETI run, but they should be organized in three ON-OFF pairs, which is the main approach to exclude false positives. This will be useful for the next steps. 
 The output are .h5 files (just the .fil converted), .dat (containing all the hits found), and a log file.
 
 #### Step 1.1: Make lists of .dat files (dat_file_list.py)
